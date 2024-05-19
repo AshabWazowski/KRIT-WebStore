@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/* 
+COLOR CODES FOR WEBSITE{
+* background: #050408 (black)
+* card-background: #d7bff4 (light pink-purple)
+* for highlightging anything: #1f887c
+* Dark purple: #9947ff
+* Grey: #9c9aa0
+* Book a call card: #af94d3
+
+} 
+*/
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #050408;
+  font-family: "Roboto Condensed", system-ui;
+  overflow-x: hidden;
+ }
+
