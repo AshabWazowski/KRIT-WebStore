@@ -3,6 +3,7 @@ import { KritBtn, KritFlex , KritGap, KritBtnContained} from "../../Assets/KritS
 import { Box, Button, Typography, useMediaQuery } from "@mui/material";
 import HomePic from '../../Assets/HomePic.png';
 import dots from '../../Assets/DotsWhite.png';
+import Testimonials from "../Testimonials/Testimonials";
 
 
 
@@ -15,10 +16,9 @@ const Home = () => {
         <Typography
           variant={desktop ? "h1" : "h3"}
           textAlign="center"
+          fontWeight='400'
           sx={{
             color: "whitesmoke",
-            fontWeight: "300",
-            fontFamily: "Roboto Condensed",
           }}
         >
         Amplify Your Brand with Expert Social Media Marketing
@@ -32,7 +32,6 @@ const Home = () => {
             color: "#9c9aa0",
             fontSize: "20px",
             fontWeight: "400",
-            fontFamily: "Roboto Condensed",
             lineHeight:'38px'
           }}
           gutterBottom
@@ -51,6 +50,9 @@ const Home = () => {
       <KritFlex width='80%'>
       <img src={HomePic} width='100%' style={{filter: "drop-shadow(0 0 0.75rem #9947ff)"}}/>
       </KritFlex>
+
+
+      <Testimonials/>
     </KritGap>
   );
 };

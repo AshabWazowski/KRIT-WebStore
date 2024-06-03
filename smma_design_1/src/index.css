@@ -3,8 +3,10 @@
 COLOR CODES FOR WEBSITE{
 * background: #050408 (black)
 * card-background: #d7bff4 (light pink-purple)
-* for highlightging anything: #1f887c
-* Dark purple: #9947ff
+* for highlightging anything: 
+* Dark purple primary: #9947ff
+* Dark purple secondary: #3f255b
+* Dark purple Third: #3d2751
 * Grey: #9c9aa0
 * Book a call card: #af94d3
 
@@ -20,5 +22,6 @@ body {
   background: #050408;
   font-family: "Roboto Condensed", system-ui;
   overflow-x: hidden;
+  
  }
 
